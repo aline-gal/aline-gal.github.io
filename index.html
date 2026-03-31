@@ -1,103 +1,296 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Aline Galdino | MSc Student in Engineering Systems and Computer Science</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-      max-width: 860px;
-      margin: 48px auto;
-      padding: 0 20px;
-      line-height: 1.7;
-      color: #1f2933;
-      background-color: #ffffff;
-    }
-
-    h1 {
-      font-size: 2.2em;
-      margin-bottom: 0.2em;
-    }
-
-    h2 {
-      margin-top: 2em;
-      border-bottom: 1px solid #e5e7eb;
-      padding-bottom: 6px;
-    }
-
-    p {
-      font-size: 1.05em;
-    }
-
-    .subtitle {
-      font-size: 1.1em;
-      color: #374151;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    a {
-      color: #0a5bd3;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .highlight {
-      background: #f9fafb;
-      padding: 16px;
-      border-left: 4px solid #0a5bd3;
-      margin: 24px 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aline Galdino | Home </title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
-
 <body>
+    <nav>
+        <ul>
+            <li><a href="#about">Home</a></li>
+            <li><a href="#affiliation">Affiliations</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="outreach.html">Community Leadership</a></li>
+        </ul>
+    </nav>
+    <header>
+        <section id="about">
+            <div class="about-container">
+                <div class="about-text">
+                    <h2>Hello, <br>I’m Aline Galdino.</h2>
+            
+                    <p>
+                        Computer Science researcher at the Systems Engineering and Computer Science Program (UFRJ), specializing in building scalable 
+                        computational infrastructures for large-scale, data-intensive analysis. I integrate HPC, Cloud, and AI solutions to transform massive, 
+                        heterogeneous datasets into social and agricultural impact.
+                    </p>
+            
+                    <div class="about-buttons">
+                        <a href="mailto:alinegal@cos.ufrj.br" class="btn-primary">Contact me</a>
+                    </div>
+                </div>
+            
+                <div class="about-card">
+            
+                    <div class="profile-image-container">
+                        <img src="img/aline_oliveira.png" alt="Aline Galdino" class="profile-image">
+                    </div>
+            
+                    <div class="info-section">
+            
+                        <div class="info-label">RESEARCH INTERESTS</div>
+                        <div class="info-content">
+                            Natural Language Processing (NLP), High-Performance Computing architectures for data-intensive analytics, 
+                            AI and Machine Learning, Multimodal data fusion (IoT, Computer Vision) to agricultural challenges in the Global South
+                        </div>
 
-  <h1>Aline Galdino</h1>
-  <p class="subtitle">
-    MSc Student in Engineering Systems and Computer Science • Researcher • Tech for Social Good
-  </p>
+                        <div class="info-label">BASED</div>
+                        <div class="info-content">
+                            Rio de Janeiro, Brazil
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
 
-  <p>
-    I am a Master's student in Systems Engineering and Computer Science at Federal University of Rio de Janeiro(UFRJ).
-    Professionally, I have worked as a Data Engineer at IBM, where I participated in strategic data migration projects and developed systems to orchestrate large-scale data transfers with integrity and efficiency.
-    I also work as Project Coordinator for the Conectando Mulheres initiative, which provides digital literacy and programming skills classes for young and adult women from vulnerable communities.
-  </p>
+    <div class="container">
+        <section id="affiliation" class="affiliations-section">
 
-  <div class="highlight">
-    <p>
-      I am especially interested in initiatives aligned with the development of tools to tackle <strong>real-world problems.</strong>
-    </p>
-  </div>
+            <div class="affiliations-container">
+        
+                <div class="affiliations-title">
+                    <span>AFFILIATIONS</span>
+                    <div class="title-line"></div>
+                </div>
+        
+                <div class="affiliations-grid">
+        
+                    <div class="affiliation-item">
+                        <h4>Projeto Fazenda – CNPq Research Project (UFRJ)</h4>
+                        <p>
+                            Graduate Researcher (MSc Student) working on smart farming technologies,
+                            sensor data integration, and computer vision for agricultural monitoring
+                        </p>
+                    </div>
+        
+                    <div class="affiliation-item">
+                        <h4>Lab ComPasso – UFRJ</h4>
+                        <p>
+                            MSc Researcher working on AI-driven autonomous cloud infrastructures for performance monitoring and resource management
+                            in federated IaaS environments for educational platforms
+                        </p>
+                    </div>
+        
+                    <div class="affiliation-item">
+                        <h4>Data & Justice</h4>
+                        <p>
+                            Founder & CEO, leading the development of Natural Language
+                            Processing (NLP) systems for large-scale analysis of police
+                            violence reports in Rio de Janeiro,
+                            supporting data-driven governance accountability
+                        </p>
+                    </div>
+        
+        
+                </div>
+        
+            </div>
+        
+        </section>
 
-  <h2>Current Work & Research</h2>
-  <ul>
-    <li>Natural Language Processing applied to map police violation reports</li>
-    <li>
-    Cloud-based data systems for smart farming, integrating sensors, IoT devices,
-    and scalable data pipelines
-    </li>
-  </ul>
+        <section id="projects" class="projects-section">
+            <h2 class="section-title">Projects</h2>
+          
+            <div class="projects-grid">
+          
+              <!-- DATA & JUSTICE -->
+              <a href="https://forge-program.com/" class="project-card" target="_blank">
+                <img src="img/data-logo.jpg" alt="Data & Justice Logo" class="project-logo">
+          
+                <h3>Data & Justice</h3>
+          
+                <p>
+                  NLP-based platform to map police violence and human rights violations 
+                  in Rio de Janeiro through large-scale data analysis.
+                </p>
+          
+                <span class="project-highlight">
+                  Selected for the NYU Law School FORGE Program • Part of BSc Research
+                </span>
+          
+                <div class="project-link">View project →</div>
+              </a>
+    
+              <!-- PROJETO FAZENDA -->
+              <a href="https://youtu.be/YkrmVfnjn38?si=19OAs7YoQgDdJ00r" class="project-card" target="_blank">
+                <img src="img/fazenda-logo.jpg" alt="Projeto Fazenda Logo" class="project-logo">
+          
+                <h3>Projeto Fazenda</h3>
+          
+                <p>
+                  Smart agriculture research integrating sensor data, IoT systems,
+                  and computer vision for environmental monitoring.
+                </p>
+          
+                <span class="project-highlight">
+                  CNPq Research Project
+                </span>
+          
+                <div class="project-link">View project →</div>
+              </a>
+          
+              <!-- LAB COMPASSO -->
+              <a href="https://www.compasso.ufrj.br/projetos/cloud-nas-favelas" class="project-card" target="_blank">
+                <img src="img/compasso-logo.jpg" alt="Lab ComPasso Logo" class="project-logo">
+          
+                <h3>Lab ComPasso – UFRJ</h3>
+          
+                <p>
+                  Research on AI-driven cloud infrastructures and performance monitoring 
+                  for federated educational platforms.
+                </p>
+          
+                <span class="project-highlight">
+                  MSc Research Project • UFRJ
+                </span>
+          
+                <div class="project-link">View project →</div>
+              </a>
+          
+          
+            </div>
+          </section>
 
-  <h2>Background</h2>
-  <p>
-    My academic background includes a Bachelor's degree in Computer Science, where I conducted a final research project that leveraged the use of Natural Language Processing (NLP) to map police violations reports.
-  </p>
+          <section id="publications" class="publications-section">
 
-  <h2>Links</h2>
-  <ul>
-    <li><a href="https://github.com/allien01" target="_blank">GitHub</a></li>
-    <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
-    <!-- Se quiser depois: CV em PDF -->
-    <!-- <li><a href="cv.pdf">Curriculum Vitae (PDF)</a></li> -->
-  </ul>
+            <h2 class="section-title">Publications</h2>
+        
+            <div class="publications-container">
+        
+                <div class="publication-card">
+                    <h3>
+                        <a href="publications/radnet-protocol.html">
+                             Evaluating Networks by Fusing Metrics with Fuzzy Logic<span style="font-size: 0.8em; color: #666;"> (To appear)</span>
+                        </a>
+                    </h3>
+        
+                    <p class="publication-authors">
+                        Charles L. S. Mendes, Aline G. Oliveira, Douglas S. Francisco, Pablo Rangel, Claudio Miceli, Diego L. Cadette Dutra1, Claudio L. de Amorim1 et al. · 3rd Latin American Workshop on Information Fusion (LAFUSION 2025) 
+                    </p>
+        
+                    <p class="publication-description">
+                        Development of a pipeline for edge quality classification in mobile ad hoc networks, 
+                        integrating Graph Neural Networks (GNN) for link prediction and multimodal fuzzy logic 
+                        fusion of physical metrics and RADNET protocol indicators.
+                    </p>
+                </div>
+        
+        
+                <div class="publication-card">
+                    <h3>
+                        <a href="publications/datajustice.html">
+                            Data & Justice: Mapping Police Violence in Maré<span style="font-size: 0.8em; color: #666;"> (To appear)</span>
+                        </a>
+                    </h3>
+        
+                    <p class="publication-authors">
+                        Aline Galdino et al. · Future of Rights and Governance, NYU Law School · (FORGE 2025)
+                    </p>
+        
+                    <p class="publication-description">
+                        An NLP-based framework designed to automate the classification of human rights 
+                        violation reports in Rio de Janeiro's favelas. By transforming unstructured 
+                        testimonials into systemic data, this project leverages AI to challenge official 
+                        narratives, uncover hidden patterns of state violence, and provide scalable 
+                        evidence for digital advocacy and legal accountability.
+                    </p>
+                </div>
+        
+            </div>
+        
+        </section>
 
+        <section id="contact">
+            <h2>Contact me</h2>
+
+            <p class="contact-intro">
+                Feel free to reach out for collaborations, research discussions, or opportunities.
+            </p>
+
+            <ul class="contact-list">
+                <li>
+                <strong >Email</strong><br>
+                <p>For academic inquiries and collaborations.</p>
+                <a href="mailto:alinegal@cos.ufrj.br" class="btn contact-btn">
+                 Send Email
+                </a>
+                </li>
+
+                <li>
+                <strong>LinkedIn</strong><br>
+                <p>Connect with me professionally.</p>
+                <a href="https://www.linkedin.com/in/aline-gal/" target="_blank" class="btn contact-btn">
+                 View LinkedIn
+                </a>
+               </li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Copyright &copy; Aline Galdino | All rights reserved</p>
+            <p>
+                <a href="#about">About</a> |  
+                <a href="https://github.com/aline-gal" target="_blank">GitHub</a> | 
+                <a href="#contact">Contact</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add active state to navigation
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('nav a');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= sectionTop - 100) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.style.background = '';
+                link.style.color = '';
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.style.background = '#6B7FED';
+                    link.style.color = 'white';
+                }
+            });
+        });
+    </script>
 </body>
 </html>
